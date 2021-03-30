@@ -10,16 +10,17 @@
 
 <body>
     <?php
-    echo __dir__;
+    echo __DIR__;
     echo '<br>';
-    echo __file__;
+    echo __FILE__;
     echo '<br>';
-    echo __line__;
+    echo __LINE__;
     echo '<br>';
 
-    define ('my_const', 3.14159);
+    define('my_const', 3.14159);
 
     echo my_const;
+    echo '<br>';
 
     ?>
 </body>
